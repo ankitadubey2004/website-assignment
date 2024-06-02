@@ -89,4 +89,95 @@ body, html {
     width: 100%;
     top: -680%;
 }
+.image {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain; /* Ensures the image fits within its div */
+}
+
+/* First image at top left */
+.image1 {
+    background-image: url("./assets/Group 35896.png");
+    width: 100%; /* Adjust width */
+    height: 100%; /* Adjust height */
+    top: 20%;
+    left: 20%;
+}
+
+/* Second image at center top with some margin from top */
+.image2 {
+    background-image: url("./assets/Group 35896.png");
+    width: 150px; /* Adjust width */
+    height: 150px; /* Adjust height */
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Third image at bottom right */
+.image3 {
+    background-image: url("./assets/Group 35896.png");
+    width: 200px; /* Adjust width */
+    height: 200px; /* Adjust height */
+    bottom: 0;
+    right: 0;
+}
+.image4 {
+    background-image: url("./assets/Group 35896.png");
+    width: 200px; /* Adjust width */
+    height: 200px; /* Adjust height */
+    bottom: 0;
+    right: 0;
+}
+
+
+.container2{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    top: -470%;
+}
+.blurred-background1 {
+    position: absolute;
+    top: 30%;
+    left: -15%;
+    width: 70%;
+    height: 70%;
+    background-image: url("./assets/Group 35896.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    filter: blur(10px);
+    z-index: 1;
+}
+
+.overlay-image1 {
+    position: relative;
+    top: 30px; /* Adds margin from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Specifies the width of the overlay image */
+    height: auto; /* Maintains the aspect ratio of the overlay image */
+    z-index: 2; /* Ensures the overlay image is above the blurred background */
+}
+
+.container3{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    top:-435%;
+    left: 10%;
+}
+.container4{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -680%;
+}
+.container5{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -680%;
+}
 
