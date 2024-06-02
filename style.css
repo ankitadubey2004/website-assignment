@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden; /* Ensures the images don't cause overflow issues */
+}
+
+.blurred-background {
+    position: absolute;
+    top: -20%;
+    left: -15%;
+    width: 70%;
+    height: 70%;
+    background-image: url("./assets/Group 35896.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    filter: blur(10px);
+    z-index: 1;
+}
+
+.overlay-image {
+    position: relative;
+    top: 120px; /* Adds margin from the top */
+    left: 28%;
+    transform: translateX(-50%);
+    width: 550px; /* Specifies the width of the overlay image */
+    height: auto; /* Maintains the aspect ratio of the overlay image */
+    z-index: 2; /* Ensures the overlay image is above the blurred background */
+}
+.background-container1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -65%;
+    left: 7%;
+}
+.background-container2 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -155%;
+    left: 7%;
+}
+.background-container3 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -235%;
+    left: 4%;
+}
+.background-container4{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -327%;
+    left: 20%;
+}
+.background-container5{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -500%;
+    left: 58%;
+}
+.background-container6{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -590%;
+    left: 60%;
+}
+.background-container7{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -705%;
+    left: 50%;
+}
+.container1{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -680%;
+}
+
